@@ -1,6 +1,4 @@
-package sample;
-
-import java.util.Arrays;
+package lesson1;
 
 public class taskmassive {
     public static void main(String[] args) {
@@ -8,6 +6,7 @@ public class taskmassive {
         for (int i = 0; i < array.length; i++) {
             array[i] = i;
             System.out.println(array[i]);
+            System.out.println("HELLO WORLD");
         }
 
     }
