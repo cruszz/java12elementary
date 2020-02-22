@@ -10,6 +10,6 @@ public class recursion {
     }
 
     public static void main(String[] args) {
-        System.out.println(recursion(10));
+        System.out.println(recursion(8));
     }
 }
