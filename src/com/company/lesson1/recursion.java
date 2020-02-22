@@ -1,4 +1,4 @@
-package lesson1;
+package com.company.lesson1;
 
 public class recursion {
     public static String recursion(int n) {

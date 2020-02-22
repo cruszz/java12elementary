@@ -1,4 +1,4 @@
-package lesson1;
+package com.company.lesson1;
 
 public class taskmassive {
     public static void main(String[] args) {
