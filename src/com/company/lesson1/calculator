@@ -6,7 +6,7 @@ public class calculator {
 
     public static void main (String[] args){
 
-        read = new Scanner(System.in);
+        num = new Scanner(System.in);
 
         double first;
         double second;
@@ -14,9 +14,9 @@ public class calculator {
 
         System.out.print(">> ");
 
-        first = read.nextDouble();
-        operator = read.next();
-        second = read.nextDouble();
+        first = num.nextDouble();
+        operator = num.next();
+        second = num.nextDouble();
 
         if (operator.equals("*")){
             System.out.println("= " + (first * second));
